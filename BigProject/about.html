@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About</title>
+	<link href="abtstyle.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="javascript.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	
+</head>
+<body>
+<div class="header">
+	<div class="logo">
+                <a href="bigproject.html"><img src="img/logo.png" alt="logo"></a>
+	</div>
+				<div class="nav">
+				 <ul class="list1">
+                                            <li><a class="a" href="bigproject.html">Home</a></li>
+                                            <li><a class="b active" href="about.html">About</a></li>
+                                            <li><a class="c" href="destination.html">Destination</a></l/li>
+                                            <li><a class="d" href="pages.html">Pages</a> </li>
+											<li><a class="e" href="blog.html">Blog</i></a></li>
+                                            <li><a class="f" href="contact.html">Contact</a></li>
+                 </ul>
+				</div>
+										
+									<div class="number">
+                                        <p> +01 123 456 789</p>
+                                    </div>
+                                    
+<div class="mysite">
+<ul class="list2">
+<li><a href="https://www.facebook.com/imak02" target="_blank"><img class="a" src="facebook.png" alt="Facebook"/></a></li>
+<li><a href="https://www.instagram.com/imak02_" target="_blank"><img class="b" src="iinstagram.png" alt="Instagram"/></a><br/></li>
+<li><a href="https://twitter.com/imak02_" target="_blank"><img class="c" src="twitterr.png" alt="Twitter"/></a></li>
+<li><a href="mailto:asbinkhanal222@gmail.com"><img class="d" src="email.png" alt="Mail"/></a></li>
+</ul>
+</div>
+</div>
+
+<div class="floatbtn">
+<a href="#">
+	<span id="fun" style="top: 100px; left: 10px;" onmousedown="grabber(event);">Top</span>
+
+</a>
+	</div>
+	<script type="text/javascript">
+	var diffx,diffy,theelement;
+	function grabber(event){
+		theelement=event.currentTarget;
+		var posx=parseInt(theelement.style.left);
+		var posy=parseInt(theelement.style.top);
+
+		diffx=event.clientX-posx;
+		diffy=event.clientY-posy;
+
+		document.addEventListener("mousemove",mover,true);
+		document.addEventListener("mouseup",dropper,true);
+
+		event.stopPropagation();
+		event.preventDefault();
+	
+	}
+
+	function mover(event){
+		theelement.style.left=(event.clientX-diffx)+"px";
+		theelement.style.top=(event.clientY-diffy)+"px";
+		event.stopPropagation();
+	}
+
+	function dropper(event){
+		document.removeEventListener("mousemove",mover,true);
+		document.removeEventListener("mouseup",dropper,true);
+		event.stopPropagation();
+	}
+</script>
+
+    <div class="bradcam_area">
+        <div class="container">
+                    <div class="text-center">
+                        <h3>About Us</h3>
+                    </div>
+                </div>
+    </div>
+	
+	
+	<div class="about_story">
+        <div class="container">
+            <div class="row">
+                <div class="rowafter">
+                    <div class="story_heading">
+                        <h3>Our Story</h3>
+                    </div>
+                    <div class="row">
+                            <div class="story_info">
+                                <div class="row">
+                                    <div class="para">
+                                        <p>The Travelo Group is a privately owned and operated full-service travel agency with over 35 years of experience offering professional, world-wide travel experiences! Our agents have extensive knowledge in the travel industry, specializing in leisure travel, destination weddings, honeymoons, group travel and corporate meetings & incentives.  
+
+If you have travelled with us before – welcome back! If you are a new visitor please enjoy our site, we hope to hear from you to help with all your travel needs.</p>
+                                <p>Our travel consultant’s firsthand knowledge and experience is what sets us apart. Between our nearly 25 travel professionals, we have been to almost every corner of the world – and we continuously share our experiences with one another. Time is valuable, which is why savvy travellers have been turning to the Travelo Group for over three decades. We take the stress out of planning so you can focus on enjoying your vacation time. Our advisors continue to exceed client expectations by creating memorable experiences that are truly inspired and tailor made for you. We take the time to get to know your individual desires and preferences because we care. And should anything ever go wrong, we are just a phone call away! Not only can we save you time and money, but travel is our passion so let us help you plan your next trip! </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="story_thumb">
+                                <div class="row">
+                    
+                                        <div class="thumb">
+                                            <img src="img/about/1.png" alt="">
+                                        </div>
+                         
+                                        <div class="thumb">
+                                            <img src="img/about/2.png" alt="">
+                           
+                                    </div>
+                                </div>
+                            </div>
+							<div class="story_info">
+                                <div class="row">
+                                    <div class="para">
+                                        <p>Our highly experienced team of travel advisors are knowledgeable and friendly. We work for you and our team staffs dedication to our clients is what makes us stand out from other agencies. You can click on each agents photo to see their bio, sample photos from their travels or get in touch with them if you’d like their help planning your next vacation!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="counter_wrap">
+                              <div class="row">
+                                   <div class="equal">
+                                        <div class="text-center">
+										<h3 class="counter">30</h3>
+                                            <p>Yearly tour arrange</p>
+                                            
+                                        </div>
+										</div>
+                                 
+                                 <div class="equal">
+                                        <div class="text-center">
+                                         <h3  class="counter">378</h3>
+                                            <p>Tour done successfully</p>   
+                                        </div>
+										</div>
+                                  
+                                  <div class="equal">
+                                        <div class="text-center">
+                                            <h3 class="counter">2263</h3>
+                                            <p>Happy Clients</p>
+                                        </div>
+                                    </div>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+	
+	
+	
+	    <div class="video_area">
+        <div class="container">
+            <div class="row">
+                <div class="vdeobg">
+                    <div class="text-center">
+                        <h3 id="ttl">Enjoy Video</h3>
+                        <div class="video_icon">
+                            <a id="plbtn" class="video_play_button" href="file:///F:/WEB%20TECHNOLOGY/myvideo.html">
+                               Play
+                            </a>
+						
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>	
+
+<script type="text/javascript">
+
+
+
+function btnanime1(){
+
+var a=document.getElementById('ttl').style;
+a.color="red";
+var b=document.getElementById('plbtn').style;
+b.color="red";
+b.backgroundColor="yellow";
+setTimeout('btnanime2()',300);
+}
+btnanime1();
+
+
+function btnanime2(){
+var a=document.getElementById('ttl').style;
+a.color="yellow";
+var b=document.getElementById('plbtn').style;
+b.color="yellow";
+
+b.backgroundColor="red";
+b.border="solid";
+
+setTimeout('btnanime1()',100);
+}
+btnanime2();
+
+
+
+</script>
+
+<div class="travel_variation_area">
+        <div class="container">
+            <div class="row">
+                <div class="desborder">
+                    <div class="text-center">
+                        <div class="icon">
+                            <img src="img/svg_icon/1.svg" alt="">
+                        </div>
+                        <h3>Comfortable Journey</h3>
+                        <p>A wonderful serenity has taken to the possession of my entire soul.</p>
+                    </div>
+                </div>
+                <div class="desborder">
+                    <div class="text-center">
+                        <div class="icon">
+                            <img src="img/svg_icon/2.svg" alt="">
+                        </div>
+                        <h3>Luxurious Hotel</h3>
+                        <p>A wonderful serenity has taken to the possession of my entire soul.</p>
+                    </div>
+                </div>
+                <div class="desborder">
+                    <div class="text-center">
+                        <div class="icon">
+                            <img src="img/svg_icon/3.svg" alt="">
+                        </div>
+                        <h3>Travel Guide</h3>
+                        <p>A wonderful serenity has taken to the possession of my entire soul.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="footer">
+<div class="footer_top">
+            <div class="container">
+                <div class="roww">
+                    <div class="deslogo ">
+                        <div class="footer_widget">
+                            <div class="footer_logo">
+                                <a href="#">
+                                    <img src="img/footer_logo.png" alt="">
+                                </a>
+                            </div>
+                            <p>5th flora, New Baneshwor <br> Kathmandu <br>
+                                <a href="#">+01 123 456 789</a> <br>
+                                <a href="#">contact@travelo.com</a>
+                            </p>
+                       
+
+                        </div>
+                    </div>
+                    <div class="company">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Company
+                            </h3>
+                            <ul class="links">
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="https://www.instagram.com/bestvacations/?hl=ne"> Gallery</a></li>
+                                <li><a href="contact.html"> Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="popdes">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Popular destination
+                            </h3>
+                            <ul class="links">
+                                <li><a href="#">France</a></li>
+                                <li><a href="#">Spain</a></li>
+                                <li><a href="#">United States</a></li>
+                                <li><a href="#">China</a></li>
+                                <li><a href="#">Italy</a></li>
+                                <li><a href="#">Germany</a></li>
+                                <li><a href="#">Switzerland</a></li>
+                                <li><a href="#">Nepal</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="insta">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Instagram
+                            </h3>
+                            <div class="instagram_feed">
+                                <div class="single_insta">
+                                    <a href="https://www.instagram.com/bestvacations/?hl=ne">
+                                        <img src="img/instagram/1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="single_insta">
+                                    <a href="https://www.instagram.com/bestvacations/?hl=ne">
+                                        <img src="img/instagram/2.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="single_insta">
+                                    <a href="https://www.instagram.com/bestvacations/?hl=ne">
+                                        <img src="img/instagram/3.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="single_insta">
+                                    <a href="https://www.instagram.com/bestvacations/?hl=ne">
+                                        <img src="img/instagram/4.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="single_insta">
+                                    <a href="https://www.instagram.com/bestvacations/?hl=ne">
+                                        <img src="img/instagram/5.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="single_insta">
+                                    <a href="https://www.instagram.com/bestvacations/?hl=ne">
+                                        <img src="img/instagram/6.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+</body>
+		</html>

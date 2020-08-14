@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About</title>
+	<link href="constyle.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="javascript.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	
+</head>
+<body>
+<div class="header">
+	<div class="logo">
+                <a href="bigproject.html"><img src="img/logo.png" alt="logo"></a>
+	</div>
+				<div class="nav">
+				 <ul class="list1">
+                                            <li><a class="a" href="bigproject.html">Home</a></li>
+                                            <li><a class="b" href="about.html">About</a></li>
+                                            <li><a class="c" href="destination.html">Destination</a></l/li>
+                                            <li><a class="d active" href="pages.html">Pages</a> </li>
+											<li><a class="e" href="blog.html">Blog</i></a></li>
+                                            <li><a class="f" href="contact.html">Contact</a></li>
+                 </ul>
+				</div>
+										
+									<div class="number">
+                                        <p> +01 123 456 789</p>
+                                    </div>
+                                    
+<div class="mysite">
+<ul class="list2">
+<li><a href="https://www.facebook.com/imak02" target="_blank"><img class="a" src="facebook.png" alt="Facebook"/></a></li>
+<li><a href="https://www.instagram.com/imak02_" target="_blank"><img class="b" src="iinstagram.png" alt="Instagram"/></a><br/></li>
+<li><a href="https://twitter.com/imak02_" target="_blank"><img class="c" src="twitterr.png" alt="Twitter"/></a></li>
+<li><a href="mailto:asbinkhanal222@gmail.com"><img class="d" src="email.png" alt="Mail"/></a></li>
+</ul>
+</div>
+</div>
+
+<div class="floatbtn">
+<a href="#">
+	<span id="fun" style="top: 100px; left: 10px;" onmousedown="grabber(event);">Top</span>
+
+</a>
+	</div>
+	<script type="text/javascript">
+	var diffx,diffy,theelement;
+	function grabber(event){
+		theelement=event.currentTarget;
+		var posx=parseInt(theelement.style.left);
+		var posy=parseInt(theelement.style.top);
+
+		diffx=event.clientX-posx;
+		diffy=event.clientY-posy;
+
+		document.addEventListener("mousemove",mover,true);
+		document.addEventListener("mouseup",dropper,true);
+
+		event.stopPropagation();
+		event.preventDefault();
+	
+	}
+
+	function mover(event){
+		theelement.style.left=(event.clientX-diffx)+"px";
+		theelement.style.top=(event.clientY-diffy)+"px";
+		event.stopPropagation();
+	}
+
+	function dropper(event){
+		document.removeEventListener("mousemove",mover,true);
+		document.removeEventListener("mouseup",dropper,true);
+		event.stopPropagation();
+	}
+</script>
+    <div class="bradcam_area">
+        <div class="container">
+                    <div class="text-center">
+                        <h3>Pages</h3>
+                    </div>
+                </div>
+    </div>

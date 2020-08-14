@@ -1,0 +1,568 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 18px;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff
+}
+div{
+	display:block;
+}
+/*Header Section*/
+.logo{
+	position:relative;
+	top:10px;
+	left:10px;
+	height:60px;
+	width:150px;
+	padding:10px;
+}
+
+.header{
+	background-color:#EAEAEA;
+	height:100px;
+}
+
+.list1{
+	border-right:3px solid grey;
+	border-radius: 5px;
+	border-left:3px solid grey;
+	padding:10px 0 10px 30px;
+	top:-70px;
+	left:190px;
+	position: relative;
+	width:726px;
+	height:60px;
+	
+}
+.list1 li{
+	display: inline-block;
+	list-style-type: none;
+	margin-right:30px;
+	vertical-align:center;
+	height:60px;
+}
+
+.nav a{
+	
+	text-decoration:none;
+	text-transform: capitalize;
+	font-size: 18px;
+	font-family: serif;
+	font-weight: bolder; 
+	margin:5px;
+	float:left;
+	border:0 solid #0000BB;
+	border-radius:55px;
+	padding:10px;
+	display: inline-block;
+    color: black;
+	position: relative;
+	text-align: center;
+	transition: 0.5s;
+}
+
+a.active, .nav a:hover{
+	background: #FF4A52;
+    color: yellow;
+	width: auto;
+}
+.a{
+	width: auto;
+}
+.b{
+	width: auto;
+}
+.c{
+	width: auto;
+}
+.d{
+	width: auto;
+}
+.e{
+	width: auto;
+}
+.f{
+	width: auto;
+}
+
+.number{
+	position:relative;
+	top:-150px;
+	left:980px;
+	width:130px;
+	height:55px;
+	padding:25px 0 0 0;
+	vertical-align:center;	
+}
+.number p{
+	top:-160px;
+	color:black;
+	
+}
+
+.list2{
+	padding:10px 0 10px 30px;
+	top:-230px;
+	left:1150px;
+	position: relative;
+	width:315px;
+	height:60px;
+	border-right:3px solid grey;
+	border-radius: 5px;
+	border-left:3px solid grey;
+}
+.list2 li{
+	display: inline-block;
+	position: relative;
+	list-style-type: none;
+	margin-right:35px;
+	padding:10px 0 10px 0;
+	
+}
+
+.mysite .a{
+	height:40px;
+	width:40px;
+}
+.mysite .b{
+	height:40px;
+	width:40px;
+}
+.mysite .c{
+	height:40px;
+	width:40px;
+}
+.mysite .d{
+	height:40px;
+	width:40px;
+}
+
+.mysite .a:hover {	
+transform:translateY(-5px);
+}
+.mysite .b:hover {	
+transform:translateY(-5px);
+}
+.mysite .c:hover {	
+transform:translateY(-5px);
+}
+.mysite .d:hover {	
+transform:translateY(-5px);
+}
+
+
+p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	color: #7A838B;
+	margin-bottom: 0px;
+	font-family: "Rubik", sans-serif;
+}
+
+#fun{
+	position: fixed; 
+	border: 2px solid black; 
+	border-radius: 30px; 
+	background: #FF4A52;
+    color: yellow;
+	z-index: 10;
+	padding: 5px;
+}
+
+
+.container{
+	width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+	max-width:1260px;
+	position:relative;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+.bradcam_area {
+    background-size: cover;
+    background-position: center;
+    padding: 175px 0;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+    background-image: url(img/banner/bradcam4.png);
+}
+
+.bradcam_area .container .text-center h3{
+	font-size: 80px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 0;
+    line-height: 90px;
+    text-transform: capitalize;
+    font-family: "Nothing You Could Do", cursive;
+	text-align:center;
+}
+
+
+
+
+.contact_section{
+	margin-top:120px;
+	padding: 130px 0 100px;
+}
+
+  .media-body h3{
+      font-size: 16px;
+      margin-bottom: 0;
+      font-size: 16px;
+      color: #2a2a2a;
+  }
+  .afterrow{
+	display:flex;
+	flex-wrap:wrap;
+	flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+	position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+.contact-title {
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 20px;
+	    font-family: "Rubik", sans-serif;
+    color: #001D38;
+	line-height:1.2em;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+.form-contact .form-group {
+    margin-bottom: 30px;
+}
+.form-contact .form-control {
+    border: 1px solid #e5e6e9;
+    border-radius: 0px;
+    padding-left: 18px;
+    font-size: 13px;
+    background: transparent;
+    padding: .375rem .75rem;
+	line-height: 1.5;
+    color: #495057;
+	font-family: "Rubik", sans-serif;
+
+}
+
+
+.boxed-btn {
+    background: #1EC6B6;
+    color: #fff;
+    display: inline-block;
+    padding: 14px 44px;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border: 0 solid #1EC6B6;
+	border-radius: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.form-group .boxed-btn:hover{
+	background-color: #FF4A52;
+}
+
+.controller{
+	    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.contact-info{
+  margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #040E27;
+    position: relative;
+    z-index: 0;
+}
+.roww{
+	display:flex;
+	flex-wrap:wrap;
+	margin-left:-15px;
+	margin-right:-15px;
+}
+
+.roww .deslogo{
+	flex: 0 0 25%;
+    max-width: 33.333333%;	
+	position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.roww .company{
+	flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+	position: relative;
+    width: 40%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+	
+}
+.company li{
+	display:list-item;
+}
+
+.roww .popdes{
+	flex: 0 0 22%;
+    max-width: 25%;
+	position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.popdes li{
+	display:list-item;
+	list-style-position:outside;
+	line-height:36px;
+	width:50%;
+	float:left;
+	
+}
+	
+
+
+.roww .insta{
+	flex: 0 0 25%;
+    max-width: 25%;
+	position: relative;
+    width: 100%;
+    min-height: 1px;
+   
+}
+
+ 
+
+
+.footer .footer_top {
+    padding-top: 115px;
+    padding-bottom: 129px;
+}
+.footer .footer_top .footer_widget .footer_logo {
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+.footer .footer_top .footer_widget .footer_logo img {
+	color: #1F1F1F;
+	outline: medium none;
+}
+
+.footer .footer_top .footer_widget .footer_title {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 45px;
+    font-family: "Rubik", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    background-color: transparent;
+	color: #AAB1B7;
+    outline: medium none;
+}
+
+.footer .footer_top .footer_widget p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #AAB1B7;
+	margin-bottom: 0;
+    font-family: "Rubik", sans-serif;
+	margin-top: 0;
+}
+
+.footer .footer_top .footer_widget p a {
+  color: #AAB1B7;
+}
+
+.footer .footer_top .footer_widget p a:hover {
+  color: #FF4A52;
+}
+
+
+.footer .footer_top .footer_widget .links {
+    position: relative;
+    top: -14px;
+	display:inline-block;
+}
+
+.footer .footer_top .footer_widget ul li {
+    color: #ACACAC;
+    font-size: 14px;
+    line-height: 36px;
+}
+
+.footer .footer_top .footer_widget ul {
+    display: block;
+    list-style-type: none;
+    margin:0;
+	padding:0;
+}
+
+
+.footer .footer_top .footer_widget ul li a {
+    color: #AAB1B7;
+    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+}
+
+.footer .footer_top .footer_widget ul li a:hover {
+    color: #FF4A52;
+}
+
+
+
+.footer .footer_top .footer_widget .instagram_feed {
+    margin: -7.5px -7.5px 0 -7.5px;
+	
+}
+
+.footer .footer_top .footer_widget .instagram_feed .single_insta {
+	display:inline-block;
+    padding: 7.5px;
+    overflow: hidden;
+	
+	
+}
+.footer .footer_top .footer_widget .instagram_feed .single_insta img {
+    width: 200%;
+    border-radius: 5px;
+	vertical-align:middle;
+	border-style:none;
+}
+.footer .footer_top .footer_widget .instagram_feed .single_insta a{
+	width: 33.33%;
+    float: left;
+	padding:0;
+	margin:0;
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
